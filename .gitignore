@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+output/
+ApplyBee AI × The Hive — Hackathon Participant Details.xlsx
+.DS_Store
+Thumbs.db
