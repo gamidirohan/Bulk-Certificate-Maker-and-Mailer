@@ -3,6 +3,10 @@
 __pycache__/
 *.py[cod]
 output/
+
+# Certificate templates and local fonts
+Templates/
+Fonts/
 ApplyBee AI × The Hive — Hackathon Participant Details.xlsx
 .DS_Store
 Thumbs.db
