@@ -18,7 +18,7 @@ FONTS = BASE / "Fonts"
 OUTPUT = BASE / "output"
 PDFS = OUTPUT / "certificates"
 DEFAULT_FONT = FONTS / "PinyonScript-Regular.ttf"
-DEFAULT_WORKBOOK = BASE / "ApplyBee AI × The Hive — Hackathon Participant Details.xlsx"
+DEFAULT_WORKBOOK = next(iter(BASE.glob("*.xlsx")), BASE / "participants.xlsx")
 for path in (PDFS, OUTPUT / "logs"):
     path.mkdir(parents=True, exist_ok=True)
 

@@ -1,4 +1,4 @@
-# THE HIVE certificate generator
+# Certificate generator
 
 ## Required font
 

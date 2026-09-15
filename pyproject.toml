@@ -1,7 +1,7 @@
 [project]
-name = "hive-certificate-generator"
+name = "certificate-generator"
 version = "0.1.0"
-description = "THE HIVE certificate generation and delivery utility"
+description = "Certificate generation and delivery utility"
 requires-python = ">=3.11"
 dependencies = [
   "Flask>=3.0",

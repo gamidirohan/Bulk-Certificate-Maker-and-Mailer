@@ -17,19 +17,18 @@ def send_certificate(recipient, name, certificate_path, certificate_type="partic
         "third_place": "winning third place with Vanta Protocol",
     }
     if certificate_type in award_labels:
-        subject = "Congratulations on your THE HIVE hackathon win!"
+        subject = "Congratulations on your hackathon win!"
         opening = f"Congratulations on {award_labels[certificate_type]}!"
     else:
-        subject = "Thank you for participating in THE HIVE hackathon"
-        opening = "Thank you so much for participating in THE HIVE hackathon."
+        subject = "Thank you for participating in the hackathon"
+        opening = "Thank you so much for participating in the hackathon."
     html = (
         f"<p>Hi {safe_name},</p>"
         f"<p>{opening}</p>"
-        "<p>THE HIVE was a 24-hour AI hackathon conducted on 29 and 30 August at Startup Park. "
+        "<p>It was a 24-hour AI hackathon conducted on 29 and 30 August. "
         "Your enthusiasm, time, and ideas helped make the event special.</p>"
-        "<p>We are grateful to our sponsors: Emergent AI, AI Grants India, and Startup Park India.</p>"
         "<p>Please find your certificate attached. Thank you for coming and being part of the HIVE community!</p>"
-        "<p>Warm regards,<br>THE HIVE Team</p>"
+        "<p>Warm regards,<br>The Organizing Team</p>"
     )
     response = requests.post(
         "https://api.resend.com/emails",
