@@ -26,6 +26,4 @@ Before sending email, add your real `RESEND_API_KEY` and `EMAIL_FROM` values to 
 
 Open http://127.0.0.1:5000.
 
-The award categories are fixed to the specified 10 members: 3E1P (4), Vyasa Tech (3), and Vanta Protocol (3). All other workbook participants receive `Templates/Participant.png`. Choose a category, edit or drag text directly on the certificate, generate PDFs, then use the email-delivery table to search recipients, see sent status, select rows, and explicitly send or resend certificates.
-
-Emails now include the 29–30 August THE HIVE 24-hour hackathon details, Startup Park venue, and acknowledgements for Emergent AI, AI Grants India, and Startup Park India. Participation emails thank attendees; award emails congratulate the relevant winning team.
+The award categories are fixed to the specified X members. All other workbook participants receive `Templates/Participant.png`. Choose a category, edit or drag text directly on the certificate, generate PDFs, then use the email-delivery table to search recipients, see sent status, select rows, and explicitly send or resend certificates.
